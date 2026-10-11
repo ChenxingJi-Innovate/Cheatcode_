@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "requirements-kit",
+  "version": "1.0.0",
+  "description": "The business analyst's review and sign-off set: requirements lint, acceptance criteria in Gherkin or EARS, traceability matrix, UAT plan and scripts, BRD draft.",
+  "author": {
+    "name": "Cheatcode",
+    "url": "https://cheatcodehq.com"
+  },
+  "homepage": "https://cheatcodehq.com/listing/requirements-kit",
+  "license": "MIT"
+}

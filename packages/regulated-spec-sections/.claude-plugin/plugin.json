@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "regulated-spec-sections",
+  "version": "1.0.0",
+  "description": "Writes the compliance section of a PRD or BRD for fintech (KYC, AML, sanctions, PCI scope, disclosures) and healthcare (PHI, safeguards, consent, clinical safety).",
+  "author": {
+    "name": "Cheatcode",
+    "url": "https://cheatcodehq.com"
+  },
+  "homepage": "https://cheatcodehq.com/listing/regulated-spec-sections",
+  "license": "MIT"
+}

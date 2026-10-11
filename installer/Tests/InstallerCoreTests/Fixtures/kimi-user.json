@@ -1,0 +1,57 @@
+{
+  "schema": "cheatcode-desktop/v1",
+  "slug": "personalens",
+  "name": "PersonaLens",
+  "version": "1.2.0",
+  "publisher": "Cheatcode",
+  "license": "Proprietary",
+  "content_hash": "589351e6581c8b25aab92243c5fd833f369f82138d7f362c63b3f5a69ff99ad0",
+  "archive_sha256": "49ad0234669d7b773ca0134c80003a1158e3271ce34f6ea94915daffac43da63",
+  "archive_bytes": 1534,
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "c60de37c3fc4223c9fb11f925e500f4092127bf8f2f844b39b7e094176fb1050",
+      "bytes": 323
+    },
+    {
+      "path": "README.md",
+      "sha256": "d6b675bc5b37d381d2a948642d3c4183ecabb71796ee214cd2316ce0dd217fd6",
+      "bytes": 881
+    },
+    {
+      "path": "cheatcode.json",
+      "sha256": "0db8c70cad15a31b32bdf4934254fff4f0e7b032a27c8bf9e808c3be367dc60c",
+      "bytes": 1036
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "ce71b3532afaa7e86e7329a53eca0948d2e8de93fa2ca353b2374787dd32c168",
+      "bytes": 529
+    },
+    {
+      "path": "skills/personalens/SKILL.md",
+      "sha256": "fa2bcbed1cb73901284c53c9e00d77a33b4ea2757116a11205606083538fa06c",
+      "bytes": 265
+    }
+  ],
+  "skills": [
+    "personalens"
+  ],
+  "target": {
+    "id": "kimi",
+    "label": "Kimi Code",
+    "user_path": ".kimi-code/skills",
+    "alternate_user_path": null,
+    "project_path": ".kimi-code/skills",
+    "state_path": null,
+    "environment_variable": "KIMI_CODE_HOME",
+    "environment_suffix": "skills",
+    "layout": "flat",
+    "bundle_license": false,
+    "account_sync": false,
+    "restart": "Start a new Kimi Code session; skills are discovered at startup."
+  },
+  "scope": "user",
+  "expires_at": "2099-01-01T00:00:00Z"
+}

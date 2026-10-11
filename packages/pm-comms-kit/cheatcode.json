@@ -1,0 +1,28 @@
+{
+  "schema": "cheatcode-package/v1",
+  "slug": "pm-comms-kit",
+  "name": "PM Comms Kit",
+  "version": "1.0.0",
+  "tagline": "Release notes that sound like your team, learned from your past notes, and staged replies to doc comments grounded in the doc itself.",
+  "description": "Two skills written by Cheatcode for communication chores product managers repeat every week. release-notes-house-voice learns a style card from the team's past release notes before drafting from commits, pull requests or tickets, and lists what it left out and what engineering must confirm. comment-replies classifies open comments on a spec, drafts grounded replies and doc edits in the author's voice, holds back what only the author can decide, and posts nothing until approved.",
+  "category": "Product",
+  "license": "MIT",
+  "publisher": {
+    "name": "Cheatcode",
+    "url": "https://cheatcodehq.com",
+    "verified": true
+  },
+  "homepage": "https://cheatcodehq.com/listing/pm-comms-kit",
+  "upstream": null,
+  "skills": [
+    "comment-replies",
+    "release-notes-house-voice"
+  ],
+  "roles": [
+    "pm",
+    "business-analyst"
+  ],
+  "industries": [],
+  "excluded": [],
+  "evidence": "docs/research/README.md"
+}

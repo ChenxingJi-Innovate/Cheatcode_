@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "pm-comms-kit",
+  "version": "1.0.0",
+  "description": "Release notes that sound like your team, learned from your past notes, and staged replies to doc comments grounded in the doc itself.",
+  "author": {
+    "name": "Cheatcode",
+    "url": "https://cheatcodehq.com"
+  },
+  "homepage": "https://cheatcodehq.com/listing/pm-comms-kit",
+  "license": "MIT"
+}

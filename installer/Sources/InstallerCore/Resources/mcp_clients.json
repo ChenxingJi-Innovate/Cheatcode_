@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claude-desktop",
+    "label": "Claude Desktop",
+    "path": "Library/Application Support/Claude/claude_desktop_config.json",
+    "format": "json",
+    "root_key": "mcpServers",
+    "style": "bridge",
+    "restart": "Quit Claude Desktop completely (Claude menu, Quit) and open it again."
+  },
+  {
+    "id": "claude",
+    "label": "Claude Code",
+    "path": ".claude.json",
+    "format": "json",
+    "root_key": "mcpServers",
+    "style": "typed",
+    "restart": "Start a new Claude Code session; /mcp lists the server."
+  },
+  {
+    "id": "cursor",
+    "label": "Cursor",
+    "path": ".cursor/mcp.json",
+    "format": "json",
+    "root_key": "mcpServers",
+    "style": "plain",
+    "restart": "Restart Cursor, or open Settings, MCP and switch the server on."
+  },
+  {
+    "id": "vscode",
+    "label": "VS Code",
+    "path": "Library/Application Support/Code/User/mcp.json",
+    "format": "jsonc",
+    "root_key": "servers",
+    "style": "typed",
+    "restart": "Open a new Copilot chat in agent mode; VS Code asks once to trust the server."
+  },
+  {
+    "id": "chatgpt",
+    "label": "ChatGPT Codex",
+    "path": ".codex/config.toml",
+    "format": "toml",
+    "root_key": "mcp_servers",
+    "style": "codex",
+    "restart": "Start a new Codex session."
+  },
+  {
+    "id": "gemini",
+    "label": "Gemini CLI",
+    "path": ".gemini/settings.json",
+    "format": "json",
+    "root_key": "mcpServers",
+    "style": "gemini",
+    "restart": "Start a new Gemini CLI session; /mcp lists the server."
+  },
+  {
+    "id": "windsurf",
+    "label": "Windsurf",
+    "path": ".codeium/windsurf/mcp_config.json",
+    "format": "json",
+    "root_key": "mcpServers",
+    "style": "windsurf",
+    "restart": "Restart Windsurf, or press refresh in its MCP panel."
+  }
+]

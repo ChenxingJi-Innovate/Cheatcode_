@@ -1,0 +1,31 @@
+{
+  "schema": "cheatcode-package/v1",
+  "slug": "regulated-spec-sections",
+  "name": "Regulated Spec Sections",
+  "version": "1.0.0",
+  "tagline": "Writes the compliance section of a PRD or BRD for fintech (KYC, AML, sanctions, PCI scope, disclosures) and healthcare (PHI, safeguards, consent, clinical safety).",
+  "description": "Two skills written by Cheatcode that put the regulatory thinking into a spec at the start instead of the end: fintech-spec-section maps which obligations a money-moving feature triggers and writes requirements with control owners, audit events and exception paths plus the questions for compliance and the partner bank; healthcare-spec-section determines whether a feature handles PHI, writes the safeguards, consent, analytics de-identification and clinical-influence assessment, and the questions for privacy, security and clinical reviewers. Both are review drafts for the relevant experts, not legal advice.",
+  "category": "Business",
+  "license": "MIT",
+  "publisher": {
+    "name": "Cheatcode",
+    "url": "https://cheatcodehq.com",
+    "verified": true
+  },
+  "homepage": "https://cheatcodehq.com/listing/regulated-spec-sections",
+  "upstream": null,
+  "skills": [
+    "fintech-spec-section",
+    "healthcare-spec-section"
+  ],
+  "roles": [
+    "pm",
+    "business-analyst"
+  ],
+  "industries": [
+    "fintech",
+    "healthcare"
+  ],
+  "excluded": [],
+  "evidence": "docs/research/README.md"
+}
