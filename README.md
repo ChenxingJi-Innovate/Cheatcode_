@@ -31,17 +31,10 @@ skill packs. The website, API, catalog and ranking run as a hosted service and a
 
 ## How it fits together
 
-```mermaid
-flowchart LR
-    GH[GitHub repositories<br/>and the MCP Registry] -->|nightly discovery,<br/>license and safety checks| CAT[Catalog<br/>pinned to commits]
-    CAT --> API[API<br/>FastAPI]
-    EV[(Install events<br/>Postgres)] --> API
-    API --> WEB[Website<br/>Next.js]
-    WEB -->|signed, expiring<br/>install link| MAC[Mac installer<br/>this repository]
-    MAC -->|fetch manifest,<br/>verify every sha256| API
-    MAC -->|write files or<br/>one config entry| APPS[Claude Code, Codex,<br/>Cursor, Gemini CLI, ...]
-    MAC -->|install event| EV
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/architecture-dark.svg">
+  <img alt="How Cheatcode_ fits together: public sources feed a nightly listing job and an MCP recipe check into a catalog pinned to commits; the API signs install links; the Mac installer fetches the request, checks every sha256, writes into the chosen AI app and reports one install event." src="docs/images/architecture-light.svg" width="100%">
+</picture>
 
 ## Decisions worth explaining
 
